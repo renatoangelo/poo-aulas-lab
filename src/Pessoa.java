@@ -1,4 +1,4 @@
-public class Pessoa {
+public abstract class Pessoa {
     protected String nome;
     protected int idade;
 
@@ -8,9 +8,7 @@ public class Pessoa {
     }
 
 
-    public String getNome() {
-        return nome;
-    }
+    public abstract String getNome();
 
     public void setNome(String nome) {
         this.nome = nome;

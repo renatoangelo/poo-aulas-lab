@@ -5,11 +5,8 @@ import javax.swing.*;
 public class Main {
     public static void main(String[] args) {
 
-        Pessoa pessoa = new Pessoa("Joao", 20);
+        Professor professor = new Professor("Joao", 20, "1234566");
         Aluno aluno = new Aluno("Reanto", 41, 1234556);
-
-        //teste
-
 
 
 //        String nome = JOptionPane.showInputDialog("Insira seu nome");

@@ -7,6 +7,11 @@ public class Professor extends Pessoa {
         this.matricula = matricula;
     }
 
+    @Override
+    public String getNome() {
+        return "Nome do Professor: ";
+    }
+
     public String getMatricula() {
         return matricula;
     }
